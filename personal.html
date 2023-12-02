@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    
+  </head>
+
+  
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .intro {
+      padding: 0 70px;
+      padding-top: 5px;
+      float: left;
+      width: 100%;
+    }
+    
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 2px;
+    }
+    
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 2px;
+    }
+    
+    @media screen and (max-width: 900px) {
+      .intro {
+        padding: 0 30px;
+      }
+    }
+    
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    @media screen and (max-width: 750px) {
+      .intro {
+        padding: 0 10px;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .intro {
+        padding: 0 0px;
+      }
+    }
+    
+    @media screen and (max-width: 500px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+  </style>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+        <li><a href="personal.html">Personal</a></li>
+      </ul>
+    </nav>
+    
+    <div class="pers-header">
+      <h1>Personal</h1>
+    </div>
+
+    <div class="intro">
+      <h4>
+        Originally from Minneapolis, Minnesota, I am currently studying at the University of Toronto. I also recently had the privilege of representing Team Canada on the synchronized skating team <a href="http://nexxice.ca/senior/2022-2023-team" id="nexxice">NEXXICE</a>.
+      </h4>
+    </div>
+    
+    <div class="synchro">
+      <img
+           src="images/nexxice.jpeg"
+           alt="NEXXICE Senior Free Program in Austria"
+           id="synchro-img"
+      />
+      <h5>
+        Competing with NEXXICE Senior at Mozart Cup in Salzburg, Austria
+      </h5>
+      <h5>
+        Photo by Bert Egelmeers from Skate Synchro Photo
+      </h5>
+    </div>
+    
+    <div class="hiking">
+      <img
+           src="images/hiking.jpeg"
+           alt="Rocks and Water"
+           id="hiking-img"
+      />
+      <h5>
+        Hiking in Vancouver, BC
+      </h5>
+    </div>
+    
+    <div class="violin">
+      <img
+           src="images/quartet.jpeg"
+           alt="Violin Quartet"
+           id="violin-img"
+      />
+      <h5>
+        Upper Midwest String Camp quartet
+      </h5>
+    </div>
+    
+    <div class="cats">
+      <img
+           src="images/cats.jpeg"
+           alt="Ginger and Tabby Cats"
+           id="cats-img"
+      />
+      <h5>
+        Feline companions Valencia and Cherry
+      </h5>
+    </div>
+    
+    <div class="photography">
+      <h4>Photography</h4>
+    </div>
+      
+    <div class="row">
+      <div class="column">
+        <img
+             src="images/rock.jpeg"
+             alt="Cannon Beach Rock"
+             style="width:100%"
+        />
+        <img
+             src="images/buildings.jpeg"
+             alt="Downtown Buildings"
+             style="width:100%"
+        />
+        <img
+             src="images/park.jpeg"
+             alt="Trees and Flowers"
+             style="width:100%"
+        />
+      </div>
+
+      <div class="column">
+        <img
+             src="images/rocks.jpeg"
+             alt="Jay Cooke State Park"
+             style="width:100%"
+        />
+        <img
+             src="images/mountain.jpeg"
+             alt="Snowy Mountain and Sun"
+             style="width:100%"
+        />
+        <img
+             src="images/forest.jpeg"
+             alt="Forest Trees"
+             style="width:100%"
+        />
+      </div>
+        
+      <div class="column">
+        <img
+             src="images/sunset.jpeg"
+             alt="Reverse Sunset Silhouette"
+             style="width:100%"
+        />
+        <img
+             src="images/castle.jpeg"
+             alt="Castle"
+             style="width:100%"
+        />
+        <img
+             src="images/flower.jpeg"
+             alt="Flower"
+             style="width:100%"
+        />
+      </div>
+      
+      <div class="column">
+        <img
+             src="images/snow.jpeg"
+             alt="Winter Pond"
+             style="width:100%"
+        />
+        <img
+             src="images/fireworks.jpeg"
+             alt="Fireworks"
+             style="width:100%"
+        />
+        <img
+             src="images/water.jpeg"
+             alt="Beach Water"
+             style="width:100%"
+        />
+      </div>
+    </div>
+    
+  </body>
+</html>

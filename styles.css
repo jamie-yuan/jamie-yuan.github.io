@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-color: #75543b;
+  }
+  
+  .home-header {
+    background-color: #59402c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .line {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .res-header {
+    background-color: #59402c;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .port-header {
+    background-color: #59402c;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .pers-header {
+    background-color: #59402c;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  ul {
+    list-style-type: none;
+    background-color: #75543b;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #faf5ed;
+    font-size: 1.3em;
+    padding: 9px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  #home-img {
+    width: 25em;
+    length: 25em;
+  /*   border: 4px solid #EBEFF0; */
+  }
+  
+  h1 {
+    color: #EBEFF0;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 45px;
+  }
+    
+  h2 {
+    display: flex;
+    color: #e3e3e3;
+    font-family: 'Indie Flower', cursive;
+    font-size: 42px;
+    padding-left: 30px;
+    padding-top: 30px;
+    flex-shrink: 10;
+  }
+  
+  h3 {
+    text-decoration: none;
+    color: #EBEFF0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    line-height: 160%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  h4 {
+    text-decoration: none;
+    color: #EBEFF0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-left: 85px;
+    padding-right: 70px;
+  }
+  
+  h5 {
+    text-decoration: none;
+    color: #EBEFF0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  
+  h6 {
+    text-decoration: none;
+    color: #dec2ab;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  
+  p {
+    text-decoration: none;
+    color: #EBEFF0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    padding-bottom: 8px;
+    padding-left: 104px;
+    padding-right: 85px;
+  }
+  
+  #linkedin {
+    color: #deb592;
+    text-decoration: none;
+  }
+  
+  #github {
+    color: #deb592;
+    text-decoration: none;
+  }
+  
+  #pandemic {
+    color: #deb592;
+    text-decoration: none;
+  }
+  
+  #quiz {
+    color: #deb592;
+    text-decoration: none;
+  }
+  
+  .glitch-embed-wrap {
+    padding-left: 85px;
+  }
+  
+  #nexxice {
+    color: #deb592;
+    text-decoration: none;
+  }
+  
+  .synchro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-top: 80px;
+  }
+  
+  #synchro-img {
+    width: 25em;
+    length: 25em;
+    border: 4px solid #e3e3e3;
+  }
+  
+  .hiking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-top: 0px;
+  }
+  
+  #hiking-img {
+    width: 25em;
+    length: 25em;
+    border: 4px solid #e3e3e3;
+  }
+  
+  .violin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-top: 0px;
+  }
+  
+  #violin-img {
+    width: 25em;
+    length: 25em;
+    border: 4px solid #e3e3e3;
+  }
+  
+  .cats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-top: 0px;
+  }
+  
+  #cats-img {
+    width: 25em;
+    length: 25em;
+    border: 4px solid #e3e3e3;
+  }
+  
+  .photography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 12px;
+  }
+  

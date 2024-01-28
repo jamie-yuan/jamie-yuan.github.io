@@ -11,40 +11,6 @@
     <link rel="stylesheet" href="/styles.css" />
     <script src="/script.js" defer></script>
   </head>
-  
-  <style>
-    .intro {
-      padding: 0 170px;
-      padding-top: 5px;
-      float: left;
-      width: 100%;
-      text-align: center;
-    }
-
-    @media only screen and (max-width: 1200px) {
-      .intro {
-        padding: 0 100px;
-      }
-    }
-    
-    @media only screen and (max-width: 900px) {
-      .intro {
-        padding: 0 30px;
-      }
-    }
-    
-    @media only screen and (max-width: 750px) {
-      .intro {
-        padding: 0 10px;
-      }
-    }
-    
-    @media only screen and (max-width: 600px) {
-      .intro {
-        padding: 0 0px;
-      }
-    }
-  </style>
 
   <body>
     <header>
@@ -74,34 +40,37 @@
       <div id="home-header">
         <img
           src="images/me.jpeg"
-          style="width:27em; margin-right:30px;"
+          id="me-img"
           alt="Jamie Yuan"
         />
-        <h1>
+        <h1 style="text-wrap:nowrap;">
           Hi, I'm Jamie
         </h1>
       </div>
       
       <div class="intro">
-        <h4>
-          I am an undergraduate student at the University of Toronto studying Computer Science, anticipating to graduate in Spring 2025.
-        </h4>
+        <h2>
+          I am an undergraduate student at the University of Toronto studying Computer Science, 
+          anticipating to graduate in Spring 2025.
+        </h2>
         
-        <div class="line">
-          <hr style="width:25%;border-width:0;height:2px;background-color:#E2C8B0">
-        </div>
+        <hr class="intro_line">
         
-        <p></p><p></p>
-        <h6>jamieq.yuan@mail.utoronto.ca</h6>
-        <h6>
-            <a href="https://www.linkedin.com/in/jamieyuan" id="linkedin">LinkedIn</a>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            <a href="https://github.com/jamie-yuan" id="github">GitHub</a>
-        </h6>
+        <h3 style="margin-top:35px; margin-bottom:10px;">
+          jamieq.yuan@mail.utoronto.ca
+        </h3>
+        <h3 style="margin-top:15px; margin-bottom:100px;">
+          <a href="https://www.linkedin.com/in/jamieyuan" 
+          style="margin-right:12px;">
+            LinkedIn
+          </a>
+          <a href="https://github.com/jamie-yuan" 
+          style="margin-left:12px;">
+            GitHub
+          </a>
+        </h3>
           
       </div>
-      
-      <p>&nbsp&nbsp</p>
     </main>
     
   </body>

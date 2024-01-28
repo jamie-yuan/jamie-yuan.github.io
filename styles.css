@@ -20,9 +20,9 @@
   }
     
   .nav_bar li a {
-    color: #FaF5ED;
+    color: #FAF5ED;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.4em;
+    font-size: 22px;
     font-weight: 600;
     text-decoration: none;
     padding: 0px 25px;
@@ -34,18 +34,9 @@
   }
 
   .nav_line {
-    border-top: 1px solid #FAF5ED;
+    border: 1px solid #FAF5ED;
     width: 28px;
     margin-left: 24px;
-  }
-  
-  #home-header {
-    background-color: #59402C;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 60px 240px;
-    flex-wrap: wrap;
   }
 
   .header {
@@ -53,23 +44,37 @@
     padding: 80px 0px;
     text-align: center;
   }
+
+  #home-header {
+    background-color: #59402C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 240px;
+    flex-wrap: wrap;
+  }
+
+  #me-img {
+    width: 432px;
+    margin: 15px 50px;
+  }
    
   h1 {
     color: #F2C784;
     font-family: 'Indie Flower';
     font-size: 45px;
   }
-  
-  h3 {
-    text-decoration: none;
+
+  h2 {
     color: #EBEFF0;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 25px;
-    line-height: 160%;
-    padding-top: 50px;
-    padding-bottom: 0px;
-    padding-left: 150px;
-    padding-right: 150px;
+    font-size: 27px;
+  }
+  
+  h3 {
+    color: #FAF5ED;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
   }
   
   h4 {
@@ -112,23 +117,108 @@
     padding-right: 85px;
   }
 
-  .line {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px;
-    padding-top: 20px;
-    flex-wrap: wrap;
+  .intro {
+    text-align: center;
   }
-  
-  #linkedin {
-    color: #deb592;
+
+  .intro_line {
+    border: 1px solid #F2C784;
+    width: 200px;
+    margin-top: 35px;
+    /* center the line */
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .intro a {
+    color: #FAF5ED;
     text-decoration: none;
   }
-  
-  #github {
-    color: #deb592;
-    text-decoration: none;
+
+  .intro a:hover {
+    color: #F2C784;
+    transition: color 0.5s;
+  }
+
+  @media only screen and (min-width: 1450px) {
+    .intro {
+      padding: 70px 270px 5px 270px;
+    }
+  }
+
+  @media only screen and (min-width: 1050px) {
+    .intro {
+      padding: 50px 200px 0px 200px;
+    }
+  }
+
+  @media only screen and (max-width: 1050px) {
+    .nav_bar {
+      padding: 40px 100px;
+    }
+      
+    .nav_bar li a {
+      padding: 0px 22px;
+    }
+
+    .nav_line {
+      margin-left: 20px;
+    }
+
+    .intro {
+      padding: 50px 100px 0px 100px;
+    }
+  }
+
+  @media only screen and (max-width: 710px) {
+    .nav_bar {
+      padding: 30px 80px;
+    }
+    .nav_bar li a {
+      font-size: 16px;
+      padding: 0px 18px;
+    }
+    .nav_line {
+      width: 22px;
+      margin-left: 16px;
+      border-width: 0.5px;
+    }
+    #me-img {
+      width: 352px;
+    }
+    .intro {
+      padding: 50px 80px 0px 80px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .nav_bar {
+      padding: 20px 50px;
+    }
+    .nav_bar li a {
+      padding: 0px 16px;
+    }
+    #home-header {
+      padding: 50px 20px;
+    }
+    #me-img {
+      width: 302px;
+    }
+    .intro {
+      padding: 50px 60px 0px 60px;
+    }
+    .intro_line {
+      width: 150px;
+    }
   }
   
   #pandemic {

@@ -76,8 +76,14 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
   }
-  
+
   h4 {
+    color: #FAF5ED;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+  }
+  
+  h5 {
     text-decoration: none;
     color: #EBEFF0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -86,14 +92,6 @@
     padding-bottom: 5px;
     padding-left: 85px;
     padding-right: 70px;
-  }
-  
-  h5 {
-    text-decoration: none;
-    color: #EBEFF0;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    padding-top: 15px;
   }
   
   h6 {
@@ -156,15 +154,12 @@
     .nav_bar {
       padding: 40px 100px;
     }
-      
     .nav_bar li a {
       padding: 0px 22px;
     }
-
     .nav_line {
       margin-left: 20px;
     }
-
     .intro {
       padding: 50px 100px 0px 100px;
     }
@@ -198,6 +193,9 @@
     h3 {
       font-size: 14px;
     }
+    h4 {
+      font-size: 12px;
+    }
   }
 
   @media only screen and (max-width: 550px) {
@@ -205,7 +203,7 @@
       padding: 20px 50px;
     }
     .nav_bar li a {
-      padding: 0px 16px;
+      padding: 0px 13px;
     }
     #home-header {
       padding: 50px 20px;
@@ -220,86 +218,65 @@
       width: 150px;
     }
   }
-  
-  #pandemic {
-    color: #deb592;
-    text-decoration: none;
+
+  @media only screen and (max-width: 500px) {
+    h2 {
+      font-size: 16px;
+    }
+    h3 {
+      font-size: 12px;
+    }
+    h4 {
+      font-size: 10px;
+    }
   }
   
-  #quiz {
-    color: #deb592;
-    text-decoration: none;
-  }
-  
-  .glitch-embed-wrap {
-    padding-left: 85px;
-  }
-  
-  #nexxice {
-    color: #deb592;
-    text-decoration: none;
-  }
-  
-  .synchro {
+  .captioned {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
-    padding-top: 80px;
   }
-  
-  #synchro-img {
-    width: 25em;
-    length: 25em;
-    border: 4px solid #e3e3e3;
+
+  .captioned_image {
+    width: 480px;
   }
-  
-  .hiking {
+
+  #photography {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    padding-top: 0px;
+    flex-wrap: wrap;
+    padding: 0 2px;
   }
   
-  #hiking-img {
-    width: 25em;
-    length: 25em;
-    border: 4px solid #e3e3e3;
+  .photo_col {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 2px;
+  }
+
+  .photo_col img {
+    width: 100%;
   }
   
-  .violin {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    padding-top: 0px;
+  @media screen and (max-width: 1000px) {
+    .photo_col {
+      flex: 50%;
+      max-width: 50%;
+    }
   }
-  
-  #violin-img {
-    width: 25em;
-    length: 25em;
-    border: 4px solid #e3e3e3;
+
+  @media screen and (max-width: 710px) {
+    .captioned_image {
+      width: 360px;
+    }
   }
-  
-  .cats {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    padding-top: 0px;
-  }
-  
-  #cats-img {
-    width: 25em;
-    length: 25em;
-    border: 4px solid #e3e3e3;
-  }
-  
-  .photography {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 12px;
+
+  @media screen and (max-width: 500px) {
+    .captioned_image {
+      width: 240px;
+    }
+    .photo_col {
+      flex: 100%;
+      max-width: 100%;
+    }
   }
   

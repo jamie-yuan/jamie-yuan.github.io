@@ -244,7 +244,7 @@
   #photography {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 2px;
+    padding: 0px 150px 100px 150px;
   }
   
   .photo_col {
@@ -268,15 +268,17 @@
     .captioned_image {
       width: 360px;
     }
+    #photography {
+      padding: 0px 80px 100px 80px;
+    }
   }
 
   @media screen and (max-width: 500px) {
     .captioned_image {
-      width: 240px;
+      width: 250px;
     }
-    .photo_col {
-      flex: 100%;
-      max-width: 100%;
+    #photography {
+      padding: 0px 40px 50px 40px;
     }
   }
   

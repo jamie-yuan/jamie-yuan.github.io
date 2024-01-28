@@ -11,64 +11,6 @@
     <link rel="stylesheet" href="/styles.css" />
     <script src="/script.js" defer></script>
   </head>
-  
-  <style>
-    .responsive {
-      padding: 0 70px;
-      padding-bottom: 20px;
-      float: left;
-      width: 49.99999%;
-    }
-    
-    @media only screen and (min-width: 1200px) {
-      .education {
-        padding-bottom: 20px;
-      }
-    }
-
-    @media only screen and (max-width: 1200px) {
-      .responsive {
-        width: 100%;
-        padding-bottom: 5px;
-      }
-      .experiences {
-        padding-bottom: 30px;
-      }
-    }
-    
-    @media only screen and (max-width: 900px) {
-      .responsive {
-        padding: 0 30px;
-        width: 100%;
-        padding-bottom: 5px;
-      }
-      .experiences {
-        padding-bottom: 30px;
-      }
-    }
-    
-    @media only screen and (max-width: 750px) {
-      .responsive {
-        padding: 0 10px;
-        width: 100%;
-        padding-bottom: 5px;
-      }
-      .experiences {
-        padding-bottom: 30px;
-      }
-    }
-    
-    @media only screen and (max-width: 600px) {
-      .responsive {
-        padding: 0 0px;
-        width: 100%;
-        padding-bottom: 5px;
-      }
-      .experiences {
-        padding-bottom: 30px;
-      }
-    }
-  </style>
 
   <body>
     <header>
@@ -97,62 +39,129 @@
         <h1>Resume</h1>
       </div>
       
-      <div class="responsive">
-        <div class="education">
-          <h5>Education</h5>
-          
-          <h6>University of Toronto, St. George | September 2021 - June 2025</h6>
-          <p>• Pursuing an Honours Bachelor of Science in Computer Science</p>
-          <p>• Releveant coursework: Algorithm Design , Analysis , and Complexity | DataStructures | 
-            Software Design | Operating Systems | Databases | Artificial Intelligence | Linear Algebra | 
-            Probability, Statistics, and Data Analysis</p>
-          <h6>University of Minnesota, Twin Cities | High School Dual Enrollment | September 2017 - May 2021</h6>
-          <p>• Post-Secondary Enrollment Options, University of Minnesota Talented Youth Mathematics Program</p>
+      <div class="body">
+        <h2 style="margin-top:20px;">
+          Education
+        </h2>
+        <hr class="resume_line">
+        <div class="resume_split">
+          <h5 style="margin-right:15px;">University of Toronto, St. George</h5>
+          <h5 style="margin-left:15px; text-align: right;">September 2021 - June 2025</h5>
+        </div>
+        <h3 style="margin-top:2px;">Pursuing an Honours Bachelor of Science in Computer Science</h3>
+        <ul>
+          <li>
+            <h3 style="margin-top:4px;">Relevant coursework: Algorithm Design, Analysis, and Complexity | Data Structures | 
+              Software Design | Operating Systems | Databases | Artificial Intelligence | Linear Algebra | 
+              Probability, Statistics, and Data Analysis</h3>
+          </li>
+        </ul>
+        <div class="resume_split" style="margin-top:18px;">
+          <h5 style="margin-right:15px;">University of Minnesota, Twin Cities</h5>
+          <h5 style="margin-left:15px; text-align: right;">September 2017 - May 2021</h5>
+        </div>
+        <h3 style="margin-top:2px;">High School Dual Enrollment</h3>
+        <ul>
+          <li>
+            <h3 style="margin-top:4px;">Post-Secondary Enrollment Options, University of Minnesota Talented Youth Mathematics Program</h3>
+          </li>
+        </ul>
+            
+        <h2 style="margin-top:35px;">
+          Skills
+        </h2>
+        <hr class="resume_line">
+        <h3>Python, Java, C, Bash, HTML/CSS, JavaScript, React, SQL, Git</h3>
 
-          <h6>Skills</h6>
-          <p>Python, Java, C, Bash, HTML/CSS, JavaScript, React, SQL, Git</p>
-          
-          <h6>Projects</h6>
-          <p>• Toronto Health Datathon Website: Build a responsive website using React and Figma, 
-            to attract students, professionals, and sponsors</p>
-          <p>• Student Networking App: Collaborated with 5 peers to design and develop a Java application 
-            that allows users to meet other university students. Implemented 6 features while applying design 
-            principles, utilizing Git, and contributing to code reviews</p>
-          <p>• Image Filtering Server: Built a web server using C that allows users to upload and filter images, 
-            selecting from 5 implemented filters</p>
-          <p>• AI Puzzle-Solving Agent: Programmed an agent using Python to solve Sokoban and Sudoku puzzles 
-            in under 15 seconds</p>
-          <p>• Analysis of the Pandemic’s Impact on Marriage and Birth Rates: Extracted, analyzed, and graphed data 
-            using Python to examine how COVID-19 has affected major life decision measures in Canada</p>
+        <h2 style="margin-top:35px;">
+          Experience
+        </h2>
+        <hr class="resume_line">
+        <div class="resume_split">
+          <h5 style="margin-right:15px;">Software Engineering Intern</h5>
+          <h5 style="margin-left:15px; text-align: right;">May-August 2023</h5>
         </div>
-      </div>
-      
-      <div class="responsive" style="margin-bottom:60px;">
-        <div class="experiences">
-          <h5>Experience</h5>
-          
-          <h6>Software Engineering Intern | Seagate Technology | May-August 2023</h6>
-          <p>• Developed a Python program to locate and analyze critical features of a hard disc drive component</p>
-          <p>• Analyzed 128 data points using image processing, machine learning, and data visualization to help resolve 
-            product development challenges and improve efficiency</p>
-          <p>• Presented ideas and results to multiple functional teams in technical working sessions</p>
-          
-          <h5>Other</h5>
-          
-          <h6>Figure Skating, 2006-2023</h6>
-          <p>• Represented Team Canada at international competitions and the World Synchronized Skating Championships</p>
-          <p>• Certified Learn to Skate instructor- demonstrated skills and provided encouragement to beginner skaters</p>
-          
-          <h6>The Alley Bubble Tea Store Barista, June-December 2022</h6>
-          <p>• Interacted with customers to ensure quality customer service and accurate orders in a fast-paced environment</p>
-          
-          <h6>Latin, 2014-2020</h6>
-          <p>• Tutored a younger student in developing a detail-oriented view of the language</p>
-          <p>• Latin Bilingual Seal- demonstrated proficiency in reading, writing, and speaking in Latin</p>
-          
-          <h6>Violin, 2006-2021</h6>
-          <p>• Walker Methodist Care Suites volunteer- performed pieces of music for senior residents and those in memory care to help promote well-being</p>
+        <div class="resume_split" style="margin-top:2px;">
+          <h3 style="margin-right:15px;">Seagate Technology</h3>
+          <h3 style="margin-left:15px; text-align: right;">Bloomington, MN</h3>
         </div>
+        <ul>
+          <li>
+            <h3 style="margin-top:4px;">Developed a Python program to locate and analyze critical features of a 
+              hard disc drive component</h3>
+          </li>
+          <li>
+            <h3 style="margin-top:2px;">Analyzed 128 data points using image processing, machine learning, and data visualization to help 
+              resolve product development challenges and improve efficiency</h3>
+          </li>
+          <li>
+            <h3 style="margin-top:2px;">Presented ideas and results to multiple functional teams in technical working sessions</p>
+          </li>
+        </ul>
+
+        <h2 style="margin-top:35px;">
+          <a href="https://jamie-yuan.github.io/projects.html">
+            Projects
+          </a>
+        </h2>
+        <hr class="resume_line">
+        <h5>Toronto Health Datathon Website</h5>
+        <h3 style="margin-top:2px;">Organizing Committee, Technology Team</h3>
+        <ul>
+          <li>
+            <h3 style="margin-top:4px;">Build a responsive website using React and Figma, to attract students, professionals, 
+              and sponsors</h3>
+          </li>
+        </ul>
+        <h5 style="margin-top:15px;">Student Networking App</h5>
+        <h3 style="margin-top:2px;">Software Design Course Project</h3>
+        <ul>
+          <li>
+            <h3 style="margin-top:4px;">Collaborated with 5 peers to design and develop a Java application that allows users 
+              to meet other university students</h3>
+          </li>
+          <li>
+            <h3 style="margin-top:2px;">Implemented 6 features while applying design principles, utilizing Git, and contributing to code reviews</h3>
+          </li>
+        </ul>
+        <h5 style="margin-top:15px;">Image Filtering Server</h5>
+        <h3 style="margin-top:2px;">Systems Programming Course Project</h3>
+        <ul>
+          <li>
+            <h3 style="margin-top:4px;">Built a web server using C that allows users to upload and filter images, selecting from 
+              5 implemented filters</h3>
+          </li>
+        </ul>
+        <h5 style="margin-top:15px;">AI Puzzle-Solving Agent</h5>
+        <h3 style="margin-top:2px;">Artificial Intelligence Course Project</h3>
+        <ul>
+          <li>
+            <h3 style="margin-top:4px;">Programmed an agent using Python to solve Sokoban and Sudoku puzzles in under 15 seconds</h3>
+          </li>
+        </ul>
+        <h5 style="margin-top:15px;">Analysis of the Pandemic’s Impact on Marriage and Birth Rates</h5>
+        <h3 style="margin-top:2px;">Course Project</h3>
+        <ul>
+          <li>
+            <h3 style="margin-top:4px;">Extracted, analyzed, and graphed data using Python to examine how COVID-19 has affected 
+              major life decision measures in Canada</h3>
+          </li>
+        </ul>
+
+        <h2 style="margin-top:35px;">
+          Other
+        </h2>
+        <hr class="resume_line">
+        <div class="resume_split">
+          <h5 style="margin-right:15px;">Team Canada NEXXICE Synchronized Skating Team</h5>
+          <h5 style="margin-left:15px; text-align: right;">July 2021 - April 2023</h5>
+        </div>
+        <h3 style="margin-top:2px;">Senior Team Member</h3>
+        <ul>
+          <li>
+            <h3 style="margin-top:4px; margin-bottom:80px;">Represented Team Canada at international competitions and the World Synchronized Skating Championships</h3>
+          </li>
+        </ul>
       </div>
     </main>
 

@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
   }
@@ -15,7 +16,7 @@
   }
   
   .nav_bar li {
-    display: inline;
+    display: inline-block;
   }
     
   .nav_bar li a {
@@ -30,6 +31,12 @@
   .nav_bar li a:hover {
     color: #F2C784;
     transition: color 0.5s;
+  }
+
+  .nav_line {
+    border-top: 1px solid #FAF5ED;
+    width: 28px;
+    margin-left: 24px;
   }
   
   #home-header {

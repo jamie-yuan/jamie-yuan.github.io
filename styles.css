@@ -39,7 +39,7 @@
     margin-left: 24px;
   }
 
-  .menu {
+  .hamb {
     display: none;
   }
 
@@ -247,18 +247,18 @@
       padding: 20px 30px 20px;
       display: flex;
     }
-    nav {
-      position: absolute;
-      top: -100%;
-      transition: 0.25s ease-in-out;
-    }
-    nav.active {
-      top: 0;
-    }
-    .menu {
+    .hamb {
       display: block;
       z-index: 2;
       color: #FAF5ED;
+    }
+    nav {
+      position: absolute;
+      top: -100%;
+      transition: 0.3s ease-in-out;
+    }
+    nav.active {
+      top: 0;
     }
     .body {
       padding: 50px 40px 0px 40px;

@@ -6,11 +6,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/styles.css" />
-    <script src="/script.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
   </head>
   
   <style>
@@ -52,46 +51,50 @@
   </style>
 
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-        <li><a href="personal.html">Personal</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <ul class="nav_bar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+          <li><a href="personal.html">Personal</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <div class="home-header">
-      <img
-        src="images/me.jpeg"
-        alt="Jamie Yuan Picture"
-        id="home-img"
-      />
-      <h2 id="hi">
-        Hi, I'm Jamie
-      </h2>
-    </div>
-    
-    <div class="intro">
-      <h4>
-        I am an undergraduate student at the University of Toronto studying Computer Science, anticipating to graduate in Spring 2025.
-      </h4>
-      
-      <div class="line">
-        <hr style="width:25%;border-width:0;height:2px;background-color:#E2C8B0">
+    <main>
+      <div id="home-header">
+        <img
+          src="images/me.jpeg"
+          style="width:27em; margin-right:30px;"
+          alt="Jamie Yuan"
+        />
+        <h1>
+          Hi, I'm Jamie
+        </h1>
       </div>
       
-      <p></p><p></p>
-      <h6>jamieq.yuan@mail.utoronto.ca</h6>
-      <h6>
-          <a href="https://www.linkedin.com/in/jamieyuan" id="linkedin">LinkedIn</a>
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-          <a href="https://github.com/jamie-yuan" id="github">GitHub</a>
-      </h6>
+      <div class="intro">
+        <h4>
+          I am an undergraduate student at the University of Toronto studying Computer Science, anticipating to graduate in Spring 2025.
+        </h4>
         
-    </div>
-    
-    <p>&nbsp&nbsp</p>
+        <div class="line">
+          <hr style="width:25%;border-width:0;height:2px;background-color:#E2C8B0">
+        </div>
+        
+        <p></p><p></p>
+        <h6>jamieq.yuan@mail.utoronto.ca</h6>
+        <h6>
+            <a href="https://www.linkedin.com/in/jamieyuan" id="linkedin">LinkedIn</a>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="https://github.com/jamie-yuan" id="github">GitHub</a>
+        </h6>
+          
+      </div>
+      
+      <p>&nbsp&nbsp</p>
+    </main>
     
   </body>
 </html>
